@@ -31,7 +31,7 @@ for (let i = 0 ; i < divs.length; i++) {
 }
 
 function capture(e) {
-  e.stopPropagation();
+  
   console.log(this.firstChild.nodeValue.trim() + ' caputred');
 }
 for (let i = 0 ; i < divs.length; i++) {
