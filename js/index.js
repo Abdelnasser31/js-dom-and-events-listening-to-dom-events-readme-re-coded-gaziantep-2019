@@ -5,4 +5,5 @@ const main = document.getElementById("main");
 main.addEventListener('click',function (event) { 
   console.log("I ma here ")
   alert("I was clicked");
-})
+});
+document.body.style.color = "green";
