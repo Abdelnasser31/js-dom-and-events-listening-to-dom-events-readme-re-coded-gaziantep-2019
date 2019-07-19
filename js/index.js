@@ -8,5 +8,5 @@ main.addEventListener('click',function (event) {
 
 const input = document.querySelector("input");
 input.addEventListener("keydown", function (e) {
-  console.log(asciiof(e.which));
+  console.log(e.which.toString())
 })
