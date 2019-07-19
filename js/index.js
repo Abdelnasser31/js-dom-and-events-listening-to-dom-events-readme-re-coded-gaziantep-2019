@@ -22,7 +22,7 @@ input.addEventListener("keydown", function (e) {
 //bubbling test
 let divs = document.querySelectorAll('div');
 function bubble(e) {
-  conosle.log(this.firstChild.nodeValue.trim() + ' bubbled');
+  console.log(this.firstChild.nodeValue.trim() + ' bubbled');
 }
 
 for (let i = 0 ; i < divs.length; i++) {
